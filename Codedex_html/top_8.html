@@ -1,0 +1,148 @@
+<!-- For an entire generation, a website called MySpace was the entry to the world of social networks. Tom was everyone's friend.
+
+One of the iconic features of the MySpace era was the “Top 8", which allowed users to select eight friends to display on their profile page. It changed the social dynamics in schools everywhere:
+
+“OMG! Did you remove so-and-so from top 8?"
+“You've put me in your top friends! BFF <3."
+“What's-her-name and what's-his-face are not friends?!"
+Let’s create your own MySpace Top 8 with HTML!
+
+Make a new file called top_8.html.
+
+We'll provide you with a <style> element with the styles already inside. Go ahead and copy/paste this into the <head> of your file:
+
+<style>
+  body {
+    width: 85%;
+    margin: auto;
+  }
+
+  h1 {
+    text-align: left;
+  }
+
+  img {
+    border: 3px solid blue;
+  }
+
+  #top-8-wrapper {
+    text-align: center;
+  }
+
+  .friend-card {
+    display: inline-block;
+    margin: 1px;
+    text-align: center;
+  }
+
+  .friend-name {
+    color: blue;
+  }
+</style>
+
+Next, let’s add the HTML.
+
+Add a <div> element with an id of "top-8-wrapper".
+Inside, add a <h1> heading element that says "My Top Friends!", followed by two <div> elements with a class of "top-8-row".
+Inside each <div> with a "top-8-row" class, add four more <div> elements that each have a class of "friend-card".
+Inside each <div> with a "friend-card" class, add the following:
+A <h2> header element with a "friend-name" class and the friend's name inside the tags.
+An <img> image element with a src and alt attribute.
+So who’s in your top 8?
+
+If you don't want to use real names, feel free to add funny usernames or create superlatives ("class clown", "life of the party", "most likely to become president", "best hair", "most likely to be internet famous", etc). -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body {
+      width: 85%;
+      margin: auto;
+    }
+
+    h1 {
+      text-align: left;
+    }
+
+    img {
+      border: 3px solid blue;
+    }
+
+    #top-8-wrapper {
+      text-align: center;
+    }
+
+    .friend-card {
+      display: inline-block;
+      margin: 1px;
+      text-align: center;
+    }
+
+    .friend-name {
+      color: blue;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="top-8-wrapper">
+    <h1>My Top Friends!</h1>
+
+    <div class="top-8-row">
+
+      <div class="friend-card">
+        <h2 class="friend-name">Nguyen Van A</h2>
+        <img src="https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?cs=srgb&dl=pexels-simon-robben-55958-614810.jpg&fm=jpg" alt="Nguyen Van A">
+      </div>
+
+      <div class="friend-card">
+        <h2 class="friend-name">Phung Van B</h2>
+        <img src="https://static.scientificamerican.com/dam/m/4aaa836e513fa8a5/original/krijn_neanderthal_face_reconstruction.jpg?m=1728652157.415&w=600" alt="Phung Van B">
+      </div>
+
+      <div class="friend-card">
+        <h2 class="friend-name">Pham Ngoc C</h2>
+        <img src="https://i.pinimg.com/236x/a7/da/74/a7da745a7bab241d4ef4c389cd898d26.jpg" alt="Pham Ngoc C">
+      </div>
+
+      <div class="friend-card">
+        <h2 class="friend-name">Phung Thanh Hung</h2>
+        <img src="https://img.freepik.com/free-photo/portrait-white-man-isolated_53876-40306.jpg?semt=ais_hybrid&w=740&q=80" alt="Phung Thanh Hung">
+      </div>
+
+    </div>
+
+    <div class="top-8-row">
+
+      <div class="friend-card">
+        <h2 class="friend-name">Tran Ngoc Binh</h2>
+        <img src="https://magazine.medlineplus.gov/images/uploads/main_images/mosquitoes980x587_144.jpg" alt="Tran Ngoc Binh">
+      </div>
+
+      <div class="friend-card">
+        <h2 class="friend-name">Bui Ngoc Dung</h2>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPQeognUGeFKHQpbTB_QL3OKg69v7Vy2_mSQ&s" alt="Bui Ngoc Dung">
+      </div>
+
+      <div class="friend-card">
+        <h2 class="friend-name">Nong Van Den</h2>
+        <img src="https://cdn.pixabay.com/photo/2023/06/21/06/12/man-8078578_640.jpg" alt="Nong Van Den">
+      </div>
+
+      <div class="friend-card">
+        <h2 class="friend-name">Pham Ngoc Anh</h2>
+        <img src="https://media.istockphoto.com/id/1706136143/photo/the-urgent-busy-life.jpg?s=612x612&w=0&k=20&c=axqxsUe0zXF3ythkjt95qUmuN6xIFHZHagEq-J0V95g=" alt="Pham Ngoc Anh">
+      </div>
+
+    </div>
+
+
+  </div>
+</body>
+
+</html>
