@@ -1,0 +1,99 @@
+<!-- Create a new file called restaurant_menu.html.
+
+You can be as creative as you want with the name and menu items for the restaurant; it can be real or fictional. However, you should include the following:
+
+The HTML file should be properly structured (Hint: start with <!DOCTYPE html>).
+A <title> element with the restaurant name should be included in the <head> element.
+A header section that features:
+An image with an id of "header-img".
+A <h1> heading element with the name of the restaurant.
+A navigation section with two headings for "#menu" and "#order-form".
+A main section for the menu and order form, featuring:
+Two sections, each with a <h2> heading that says "Menu" and "Place Your Order". The "Menu" section should have at least three <article> elements for the menu items that use the following elements:
+An <img> image element.
+A <h3> element for the name of the menu item.
+A <p> paragraph element that briefly describes the item (1-2 sentences) and includes price information (italicized).
+The "Place Your Order" section must include a <form> element with the following inputs:
+Number inputs for each menu item (make sure to validate input with a minimum of 0).
+Radio and/or checkbox inputs for things like sides and add-ons.
+At least one <textarea> element for one of the items (for special requests).
+A submit input that says "Go To Checkout".
+Note: Make sure to include a <label> element for each <input> element.
+A footer that includes a <p> paragraph element that reads "Made with love by " followed by your Codédex username. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thai Restaurant</title>
+    
+</head>
+<body>
+    <header>
+        <img width="300px"
+         src="https://t4.ftcdn.net/jpg/08/29/92/35/360_F_829923583_Q9qvQUSqXo0URtHNzwwFqU0H0ByKXz1Y.jpg"
+         alt="Header" 
+         id="header-img">
+        <h1>Thai Restaurant</h1>
+
+        <nav>
+            <h2><a href="#menu" target="_blank">Menu</a></h2>
+            <h2><a href="#order-form" target="_blank">Order-form</a></h2>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Menu</h2>
+            <article>
+                <img width="300px" src="https://www.primaverakitchen.com/wp-content/uploads/2024/08/Hamburger-Recipe-7.jpg" alt="Hamburger">
+                <h3>Hamburger</h3>
+                <p>This is a great fastfood  <i>$8.99</i></p>
+            </article><br>
+
+            <article>
+                <img width="300px" src="https://pizzahut.vn/_next/image?url=https%3A%2F%2Fcdn.pizzahut.vn%2Fimages%2FWeb_V3%2FProducts_MenuTool%2FPesto%20H%E1%BA%A3i%20S%E1%BA%A3n._20250317172201GL5.webp&w=1170&q=75" alt="pizza" >
+                <h3>Pizza</h3>
+                <p>This has a great taste <i>$12.50</i></p>
+            </article><br>
+
+            <article>
+                <img width="300px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUs2IDWt5XOrbytzfzed1sTDx-4OcVhbl22Q&s" alt="Pasta">
+                <h3>Pasta</h3>
+                <p>This noodle originatied in Italia <i>$10.00</i></p>
+            </article>
+        </section>
+        <br>
+
+        <section>
+            <h2>Place Your Order</h2>
+            <form>
+                <label>
+                    <input type="number" min="0" placeholder="0">
+                    <br><br>
+                </label>
+
+                <label>Sides: <br>
+                    <input type="checkbox" value="Coca"> Coca <br>
+                    <input type="checkbox"> Pepsi <br>
+                    <input type="checkbox"> Panda <br>
+                    <input type="checkbox"> Milinda <br>
+                </label>
+                <br>
+
+                <label>
+                <textarea rows="5" cols="30" placeholder="Feedback"></textarea><br>
+                <label><input type="submit" value="Go to checkout"></label>
+                </label>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>
+            Made with love by doanngocth97464
+        </p>
+    </footer>
+</body>
+</html>
