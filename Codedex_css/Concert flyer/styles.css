@@ -1,0 +1,31 @@
+/* Next, implement the following styles:
+
+Give the main, header, and footer elements a width of 70% and margin of auto.
+Set the text-align of the header and footer to center.
+Select the img inside the header with a child combinator, and assign the following:
+A display of block.
+A width of 50%.
+A margin of auto.
+Target the section element with an id of "night-2" and set its text-align property to right. */
+body{
+    background: linear-gradient(skyblue,green) no-repeat;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    width: 100%;
+}
+main, header, footer{
+    width: 70%;
+    margin:auto;
+}
+header, footer{
+    text-align: center;
+}
+header>img{
+    display: block ;
+    width: 50%;
+    margin: auto;
+}
+section#night-2{
+    text-align: right;
+}
