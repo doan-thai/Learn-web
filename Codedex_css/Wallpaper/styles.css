@@ -1,0 +1,12 @@
+div#outer{
+    width: 500px;
+    height: 500px;
+    background-color: cyan;
+}
+div#inner{
+    width: 400px;
+    height: 400px;
+    background-image: url("https://cdn2.fptshop.com.vn/unsafe/800x0/hinh_nen_songoku_52_0ca49e159f.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}

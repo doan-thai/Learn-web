@@ -1,0 +1,8 @@
+h1{
+    /* width, style, color */
+    border: 3px dashed red
+}
+p{
+    /* size , weight, font-family*/
+    font: 500 17px "Arial","sans-serif";
+}
